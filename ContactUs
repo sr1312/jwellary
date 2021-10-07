@@ -1,0 +1,477 @@
+<!Doctype html>
+<html>
+    
+    
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="d_shine">
+    <title>D_shine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
+
+
+
+</head>
+<body>
+    
+  
+      
+      
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-light">
+                        <a class="navbar-brand"><img src="dshine-logo.png" style="height: 90px"></a>
+                        <form class="form-inline">
+                            <input class="form-control  mr-sm-2" type="search" placeholder="Search Products" aria-label="Search">&nbsp;
+                            <!--    <button class="btn  my-2 my-sm-0" type="submit">Search</button>-->
+                            <i class="fas fa-search"></i>
+                        </form>
+                    </nav>
+
+
+                    <!--
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ContactUs</a>
+                        </li>
+                    </ul>
+-->
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark " style="background-color: #F0F0F0;">
+            <a class="navbar-brand my-navbrand" href="#"> <img class="logo" src="dshine-logo.png" height="40"> LOGO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav ml-auto dkscenter">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                    <li class="nav-item"><a class="nav-link" href="html-components.html"> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Blog.html"> Blog</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Product Category </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Rings.html"> Rings</a></li>
+                            <li><a class="dropdown-item" href="SingleProduct.html"> Single Product </a></li>
+                            <li><a class="dropdown-item" href="Neckless.html"> Neckless</a></li>
+                            <li><a class="dropdown-item" href="EarRings.html"> EarRings</a></li>
+                            <li><a class="dropdown-item" href="#"> Bangles</a></li>
+                            <li><a class="dropdown-item" href="#"> Bracelates</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn ml-2" href="http://bootstrap-ecommerce.com">ContactUs</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+      
+     <section>
+         <div class="pimg">
+        <h2>Single Page</h2>
+         </div>
+
+    </section> 
+    
+    
+<!--
+    <section class="allb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="simg">
+                        <img src="single%20product/1.jpg">
+                    </div>
+                </div>
+                <div class="col-md-6 rtext">
+                    <h3>PRECIOUS JEWELS RING</h3>
+                    <h3 class="heading price">
+                        <del>$580</del>$420
+                    </h3>
+                    <div class="descList">
+                            <dl class="dl-horizontal">
+                                <dt>manufacturer :</dt>
+                                <dd>Tartaan &amp; Co</dd>
+                                <dt>availability :</dt>
+                                <dd>In Stock 20 Item(s)</dd>
+                                <dt>product code :</dt>
+                                <dd>Xuo15</dd>
+                            </dl>
+                        </div>
+                    <div class="shortDesc">
+                        
+                            <p class="m0">Rustic, natural, often made of bark-covered logs or simple planks. Look for junk shop finds when in the country (for authenticity), or purchase hand-made new versions.
+                            </p>
+                        
+                     </div>
+                    
+                            <h5 class="heading pro">Size :</h5>
+                            <select class="selectpicker sizeSelect">
+                                <option value="queen">queen</option>
+                                <option value="red">red</option>
+                                <option value="black">black</option>
+                                <option value="white">white</option>
+                            </select>
+                    
+                    
+                            <ul class="list-inline wce">
+                                <li><a href="#"><i class="far fa-heart"></i>Add to Wishlist</a></li>
+                                <li><a href="#"><i class="fas fa-exchange-alt"></i>Add to Compare</a></li>
+                                <li><a href="#"><i class="fas fa-envelope"></i>Email to a Friend</a></li>
+                            </ul>
+                    <div class="container">
+                        <div class="row" >      
+                          
+                          <label for="points"> Qty &nbsp;= &nbsp;</label>
+                          <input type="number" id="points" name="points" value="2" step="3">
+                           
+                            
+                            <button class="addtc" style="margin-left: 2%;"><img class="cimg" src="single%20product/cart3.png" alt="">Buy Now</button>
+                            
+                        </div>
+                    </div>
+                        
+                </div>
+            </div>
+            <div class="row m0 flexslider" id="productImageSliderNav">
+                        
+                    <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 1600%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+                            <li class="" style="width: 130px; float: left; display: block;"><img class="img-thumbnail" src="single%20product/1s.jpg" alt="" draggable="false"></li>
+                            <li style="width: 130px; float: left; display: block;" class=""><img class="img-thumbnail" src="single%20product/2s.jpg" alt="" draggable="false"></li>
+                            <li style="width: 130px; float: left; display: block;" class=""><img class="img-thumbnail" src="single%20product/3s.jpg" alt="" draggable="false"></li>
+                            <li style="width: 130px; float: left; display: block;" class=""><img class="img-thumbnail" src="single%20product/4s.jpg" alt="" draggable="false"></li>
+                            <li style="width: 130px; float: left; display: block;" class="flex-active-slide"><img class="img-thumbnail" src="single%20product/5s.jpg" alt="" draggable="false"></li>
+                            <li style="width: 130px; float: left; display: block;"><img class="img-thumbnail" src="single%20product/1s.jpg" alt="" draggable="false"></li>
+                            <li style="width: 130px; float: left; display: block;"><img class="img-thumbnail" src="single%20product/2s.jpg" alt="" draggable="false"></li>
+                            <li style="width: 130px; float: left; display: block;"><img class="img-thumbnail" src="single%20product/3s.jpg" alt="" draggable="false"></li>
+                        </ul></div><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev flex-disabled" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a></li><li class="flex-nav-next"><a class="flex-next" href="#" tabindex="-1"><i class="fas fa-angle-right"></i></a></li></ul></div>
+        </div>
+
+    </section>
+    
+    
+-->
+    
+  <!--Section: Block Content-->
+<section class="mb-5">
+
+  <div class="row">
+    <div class="col-md-6 mb-4 mb-md-0">
+
+      <div id="mdb-lightbox-ui"></div>
+
+      <div class="mdb-lightbox">
+
+        <div class="row product-gallery mx-1">
+
+          <div class="col-12 mb-0">
+            <figure class="view overlay rounded z-depth-1 main-img">
+              <a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/15a.jpg"
+                data-size="710x823">
+                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/15a.jpg"
+                  class="img-fluid z-depth-1">
+              </a>
+            </figure>
+            <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
+              <a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12a.jpg"
+                data-size="710x823">
+                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12a.jpg"
+                  class="img-fluid z-depth-1">
+              </a>
+            </figure>
+            <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
+              <a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg"
+                data-size="710x823">
+                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg"
+                  class="img-fluid z-depth-1">
+              </a>
+            </figure>
+            <figure class="view overlay rounded z-depth-1" style="visibility: hidden;">
+              <a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/14a.jpg"
+                data-size="710x823">
+                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/14a.jpg"
+                  class="img-fluid z-depth-1">
+              </a>
+            </figure>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-3">
+                <div class="view overlay rounded z-depth-1 gallery-item">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12a.jpg"
+                    class="img-fluid">
+                  <div class="mask rgba-white-slight"></div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="view overlay rounded z-depth-1 gallery-item">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg"
+                    class="img-fluid">
+                  <div class="mask rgba-white-slight"></div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="view overlay rounded z-depth-1 gallery-item">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/14a.jpg"
+                    class="img-fluid">
+                  <div class="mask rgba-white-slight"></div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="view overlay rounded z-depth-1 gallery-item">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/15a.jpg"
+                    class="img-fluid">
+                  <div class="mask rgba-white-slight"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-md-6">
+
+      <h5>Fantasy T-shirt</h5>
+      <p class="mb-2 text-muted text-uppercase small">Shirts</p>
+      <ul class="rating">
+        <li>
+          <i class="fas fa-star fa-sm text-primary"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-primary"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-primary"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-primary"></i>
+        </li>
+        <li>
+          <i class="far fa-star fa-sm text-primary"></i>
+        </li>
+      </ul>
+      <p><span class="mr-1"><strong>$12.99</strong></span></p>
+      <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sapiente illo. Sit
+        error voluptas repellat rerum quidem, soluta enim perferendis voluptates laboriosam. Distinctio,
+        officia quis dolore quos sapiente tempore alias.</p>
+      <div class="table-responsive">
+        <table class="table table-sm table-borderless mb-0">
+          <tbody>
+            <tr>
+              <th class="pl-0 w-25" scope="row"><strong>Model</strong></th>
+              <td>Shirt 5407X</td>
+            </tr>
+            <tr>
+              <th class="pl-0 w-25" scope="row"><strong>Color</strong></th>
+              <td>Black</td>
+            </tr>
+            <tr>
+              <th class="pl-0 w-25" scope="row"><strong>Delivery</strong></th>
+              <td>USA, Europe</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr>
+      <div class="table-responsive mb-2">
+        <table class="table table-sm table-borderless">
+          <tbody>
+            <tr>
+              <td class="pl-0 pb-0 w-25">Quantity</td>
+              <td class="pb-0">Select size</td>
+            </tr>
+            <tr>
+              <td class="pl-0">
+                <div class="def-number-input number-input safari_only mb-0">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                    class="minus"></button>
+                  <input class="quantity" min="0" name="quantity" value="1" type="number">
+                  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                    class="plus"></button>
+                </div>
+              </td>
+              <td>
+                <div class="mt-1">
+                  <div class="form-check form-check-inline pl-0">
+                    <input type="radio" class="form-check-input" id="small" name="materialExampleRadios"
+                      checked>
+                    <label class="form-check-label small text-uppercase card-link-secondary"
+                      for="small">Small</label>
+                  </div>
+                  <div class="form-check form-check-inline pl-0">
+                    <input type="radio" class="form-check-input" id="medium" name="materialExampleRadios">
+                    <label class="form-check-label small text-uppercase card-link-secondary"
+                      for="medium">Medium</label>
+                  </div>
+                  <div class="form-check form-check-inline pl-0">
+                    <input type="radio" class="form-check-input" id="large" name="materialExampleRadios">
+                    <label class="form-check-label small text-uppercase card-link-secondary"
+                      for="large">Large</label>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <button type="button" class="btn btn-primary btn-md mr-1 mb-2">Buy now</button>
+      <button type="button" class="btn btn-light btn-md mr-1 mb-2"><i
+          class="fas fa-shopping-cart pr-2"></i>Add to cart</button>
+    </div>
+  </div>
+
+</section>
+<!--Section: Block Content-->  
+    
+    
+    
+    <footer class="row">
+        <div class="row m0 topFooter">
+            <div class="container line1">
+                <div class="row footFeatures">
+                    <div class="col-sm-4 footFeature">
+                        <div class="media">
+                            <div class="media-left icon"><img src="footer/car3.png" alt=""></div>
+                            <div class="media-body texts">
+                                <h4>free shipping</h4>
+                                <h2>International</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 footFeature">
+                        <div class="media m0">
+                            <div class="media-left icon"><img src="footer/telephone.png" alt=""></div>
+                            <div class="media-body texts">
+                                <h4>24 hours helpline</h4>
+                                <h2>123 456 789</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 footFeature">
+                        <div class="media m0">
+                            <div class="media-left icon"><img src="footer/shopping-bag2.png" alt=""></div>
+                            <div class="media-body texts">
+                                <h4>see our</h4>
+                                <h2>latest offers</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container line2">
+                <div class="row">
+                    <div class="col-sm-3 widget">
+                        <div class="row m0">
+                            <h4>About D-Shine</h4>
+                            <p>We provide the best Quality of products to you.We are always here to help our lovely customers.</p>
+                            <ul class="list-inline">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 widget">
+                        <div class="ftext">
+                            <h4 style="margin-left: 14%;">information</h4>
+                            <ul class="ftext">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Top Brands</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="ftext">
+                            <h4 style="margin-bottom: 6%;"> top brands</h4>
+                            <ul class="ftext">
+                                <li><a href="#">Fusce iaculis</a></li>
+                                <li><a href="#">Nisl dapibus</a></li>
+                                <li><a href="#">Vulputate sapien</a></li>
+                                <li><a href="#">Aliquet</a></li>
+                                <li><a href="#">Risus feugiat</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 widget">
+                        <div class="row m0">
+                            <h4>subscribe to our latest news</h4>
+                            <form action="subscriptionList.php" method="post" role="form">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fas fa-envelope"></i></span>
+                                    <input type="email" class="form-control" id="subscribeEmail" name="subscribeEmail" placeholder="EMAIL ADDRESS">
+                                </div>
+                                <input type="submit" class="form-control" value="Subscribe" id="submit" name="submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="m0 copyRight">
+            <div class="container">
+                <div class="row">
+                    <div class="fleft">© 2018 <a href="index.html">D-Shine</a> All Rights Reserved.</div>
+                    <ul class="nav nav-pills fright">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+<script>    
+    $(document).ready(function () {
+  // MDB Lightbox Init
+  $(function () {
+    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+  });
+});
+    
+    </script>    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src='https://code.jquery.com/jquery-3.2.0.min.js'></script>
+    <script type="text/javascript" src="http://www.24limousine.com/wp-content/themes/24Limousine/assets/js/owl.carousel.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,581 @@
+/*about start*/
+/*
+.redimg  {
+    height: 390px;
+    background: url('about/bg1.jpg') no-repeat scroll center 0;
+    background-size: cover;
+    margin-right: 5px;
+    position: relative;
+}
+*/
+.nav {
+    
+     display: block;
+}
+#whatWeDid .tab_menu .row {
+    height: 390px;
+    background: url('about/bg1.jpg') no-repeat scroll center 0;
+    background-size: cover;
+    margin-right: 5px;
+    position: relative;
+}
+
+#whatWeDid .tab_menu .row .nav {
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 85px);
+}
+
+#whatWeDid .tab_menu .row .nav li + li {
+    margin-top: 3px;
+}
+
+#whatWeDid .tab_menu .row .nav li a {
+    display: inline-block;
+    background: #dcdcdc;
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;;
+    line-height: 40px;
+    padding: 0 35px;
+    min-width: 125px;
+}
+
+#whatWeDid .tab_menu .row .nav li.active a {
+    background: #fd405e;
+}
+
+#whatWeDid .tab-contents .tab-content {
+    padding-left: 5px;
+}
+
+#whatWeDid .tab-contents .tab-content .tab-pane h3 {
+  
+    text-transform: uppercase;
+    color: #222;
+    margin: 35px 0 30px;
+}
+
+#whatWeDid .tab-contents .tab-content .tab-pane p {
+    margin-bottom: 20px;
+   
+    color: #777;
+    line-height: 24px;
+}
+
+#how h3 {
+ 
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    margin-top:5%;
+}
+
+#how .col-sm-4 h5 {
+    font-size: 16px;
+   
+    color: #222;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#how .col-sm-4 h5 span {
+    color: #fd405e;
+    margin-right: 5px;
+}
+
+#how .col-sm-4 p {
+    
+    line-height: 24px;
+    color: #777;
+    font-size: 15px;
+}
+.thumbnail img{
+   
+    max-width: 100%;
+
+}
+.srd {
+   
+    background-color: #dcdcdc;
+}
+.srd a{
+    padding: 7%;
+}
+.caption{
+    text-align: center;
+}
+.srd a:hover{
+    color: #fd405e;
+}
+.mot{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#ourTeam.contentRowPad h3{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+#ourTeam .thumbnail ul {
+    background: #f4f4f4;
+}
+.mot h3{
+    text-align: center!important;
+    text-transform: capitalize;
+}
+#ourGreatServices .col-sm-4 .middleBox h4 {
+    margin-top: 40px;
+    text-transform: uppercase;
+  
+    color: #fd405e;
+    font-weight: 700;
+    margin-bottom: 25px
+}
+
+#ourGreatServices .col-sm-4 .middleBox p {
+  
+    color: #777;
+    line-height: 24px;
+    margin-bottom: 25px
+}
+
+#ourGreatServices .col-sm-4 .middleBox a {
+    text-transform: uppercase;
+   
+    color: #fd405e;
+    line-height: 1
+}
+
+#ourGreatServices .col-sm-4 .middleBox a i {
+    margin-left: 5px;
+    font-size: 18px
+}
+
+#ourGreatServices .col-sm-4 .sideBox {
+    position: relative
+}
+
+#ourGreatServices .col-sm-4 .sideBox .imgB {
+    padding-right: 64px
+}
+
+#ourGreatServices .col-sm-4 .sideBox .imgB img {
+    width: 100%
+}
+
+#ourGreatServices .col-sm-4 .sideBox .icoPlus {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%
+}
+
+#ourGreatServices .col-sm-4 .sideBox .icoPlus img {
+    right: 0;
+    position: absolute;
+    bottom: 50px
+}
+
+#ourGreatServices .col-sm-4 .sideBox .icoPlus a {
+    padding-right: 64px;
+    line-height: 50px;
+    background: #fd405e;
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;;
+    font-size: 18px;
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+#ourGreatServices .col-sm-4 .sideBox .icoPlus a span {
+    text-transform: uppercase;
+    padding: 0 30px
+}
+
+#bringIdeas {
+    text-align: center
+}
+
+#bringIdeas h3 {
+    color: #222;
+    font-family: 'PT Sans', sans-serif;;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-transform: uppercase
+}
+
+#contactBanner {
+    background: #fd405e;
+    padding: 50px 0
+}
+
+#contactBanner .container .row {
+    padding-left: 110px
+}
+
+#contactBanner .container .row h3 {
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 0;
+    text-transform: uppercase
+}
+
+#contactBanner .container .row h5 {
+    font-weight: 700;
+    color: #FFF;
+    font-family: 'PT Sans', sans-serif;;
+    font-size: 16px;
+    margin-bottom: 0
+}
+
+#contactBanner .container .row a {
+    padding: 0 23px;
+    line-height: 40px;
+    font-family: 'PT Sans', sans-serif;;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 100;
+    display: inline-block;
+    border: 1px solid #FFF;
+    border-radius: 0
+}
+
+#pricing .pricing {
+    text-align: center;
+    color: #FFF;
+    margin-top: 30px;
+    transition: all 300ms ease-in-out 0s
+}
+
+#pricing .pricing .pricingTitle {
+    line-height: 60px;
+    background: #333;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;;
+    font-size: 26px;
+    font-weight: 700;
+    transition: all 300ms ease-in-out 0s
+}
+
+#pricing .pricing .features {
+    padding: 20px 35px;
+    border: 1px solid #dcdcdc
+}
+
+#pricing .pricing .features .pricePerMonth {
+    background: #f8f8f8;
+    color: gray;
+    margin-bottom: 20px
+}
+
+#pricing .pricing .features .pricePerMonth i {
+    color: #5a5b5e
+}
+
+#pricing .pricing .features .pricePerMonth span {
+    line-height: 70px;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;;
+    color: #5a5b5e
+}
+
+#pricing .pricing .features .list-group {
+    box-shadow: none
+}
+
+#pricing .pricing .features .list-group .list-group-item {
+    border: none;
+    color: #777;
+    line-height: 42px
+}
+
+#pricing .pricing .features .list-group .list-group-item + .list-group-item {
+    border-top: 1px dashed #dcdcdc
+}
+
+#pricing .pricing .joinNow {
+    padding: 15px 0;
+    background: #333;
+    text-transform: uppercase;
+    transition: all 300ms ease-in-out 0s
+}
+
+#pricing .pricing .joinNow a {
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 35px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: 'PT Sans', sans-serif;;
+    font-size: 16px
+}
+
+#pricing .pricing.active {
+    margin-top: 0
+}
+
+#pricing .pricing.active .pricingTitle {
+    background: #fd405e
+}
+
+#pricing .pricing.active .joinNow {
+    background: #fd405e
+}
+
+#pricing .pricing:hover {
+    cursor: pointer
+}
+
+#pricing .pricing:hover .pricingTitle {
+    background: #fd405e
+}
+
+#pricing .pricing:hover .joinNow {
+    background: #fd405e
+}
+
+#pricing .pricing:hover.active {
+    margin-top: 0
+}
+
+#pricing .pricing:hover.active .pricingTitle {
+    background: #333
+}
+
+#pricing .pricing:hover.active .joinNow {
+    background: #333
+}
+
+#pricing .pricing:hover.active .joinNow a {
+    background: #fd405e
+}
+
+#page404 {
+    text-align: center
+}
+
+#page404 img {
+    display: inline-block;
+    max-width: 100%
+}
+
+
+#testimonialTabs {
+    background: url('about/bg.png') repeat scroll 0 0
+}
+
+.testimonialStyle2 {
+    padding-bottom: 75px
+}
+
+.testimonialStyle2 .testiInner {
+    padding: 30px 30px 0;
+    background: #FFF;
+    border: 1px solid #dcdcdc
+}
+
+.testimonialStyle2 p {
+    color: #777;
+    margin-bottom: 20px;
+    line-height: 24px
+}
+.tst h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+.tst h5{
+    text-align: center;
+    text-transform: capitalize;
+}
+.row {
+   
+    display: flex;
+   
+    flex-wrap: wrap;
+}
+
+.testimonialStyle2 .clientInfo .thumbnail {
+    float: left;
+    padding: 3px;
+    border: 1px solid #dcdcdc;
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+    margin-bottom: -35px;
+    margin-right: 10px
+}
+
+.testimonialStyle2 .clientInfo .thumbnail img {
+    width: 100%;
+    border-radius: 100%
+}
+
+.testimonialStyle2 .clientInfo .clientName {
+    text-transform: uppercase;
+    color: #fd405e;
+    padding-top: 10px
+}
+
+.testimonialStyle2 .clientInfo .clientName:before {
+    display: inline-block;
+    content: '\2014 \00A0'
+}
+.testimonialStyle2 {
+    
+    margin: 0;
+}
+
+.testimonialStyle3 {
+    margin-top: 30px
+}
+
+.testimonialStyle3 .testiText {
+    padding: 20px;
+    background: #FFF;
+    border: 1px solid #dcdcdc;
+    color: #777;
+    margin-bottom: 20px;
+    line-height: 24px;
+    position: relative
+}
+
+.testimonialStyle3 .testiText:before,
+.testimonialStyle3 .testiText:after {
+    content: '';
+    bottom: -15px;
+    left: calc(50% - 15px);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #dcdcdc;
+    position: absolute;
+    width: 0;
+    height: 0
+}
+
+.testimonialStyle3 .testiText:after {
+    bottom: -14px;
+    border-top-color: #FFF
+}
+
+.testimonialStyle3 img {
+    width: 95px;
+    height: 95px;
+    border-radius: 100%;
+    margin-bottom: 10px
+}
+
+.testimonialStyle3 .clientName {
+    color: #222;
+    font-family: 'PT Sans', sans-serif;;
+    line-height: 24px;
+    text-transform: uppercase
+}
+
+.testimonialStyle3 .stars {
+    margin: 0
+}
+
+.testimonialStyle3 .stars li {
+    color: #aaa;
+    padding: 0;
+    font-size: 14px
+}
+
+.testimonialStyle3 .stars li.stared {
+    color: #222
+}
+
+.testimonialStyle4 {
+    margin-top: 30px;
+    border-bottom: 2px solid #fd405e;
+    padding: 30px 40px 20px;
+    background: #FFF
+}
+
+.testimonialStyle4 .testiText {
+    padding-top: 15px;
+    color: #777;
+    line-height: 24px
+}
+
+.testimonialStyle4 img {
+    width: 95px;
+    height: 95px;
+    border-radius: 100%;
+    margin-bottom: 20px
+}
+
+.testimonialStyle4 .clientName {
+    color: #fd405e;
+    font-family: 'PT Sans', sans-serif;;
+    line-height: 24px;
+    text-transform: uppercase
+}
+
+.testimonialStyle4 .stars {
+    margin: 0
+}
+
+.testimonialStyle4 .stars li {
+    color: #aaa;
+    padding: 0;
+    font-size: 14px
+}
+
+.testimonialStyle4 .stars li.stared {
+    color: #222
+}
+
+
+
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5%;
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+
+
+/*about end
